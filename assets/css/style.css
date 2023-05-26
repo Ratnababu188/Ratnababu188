@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.nav{
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+}
+.logo:hover{
+    background: orange;
+    transition: 0.5s;
+    border-radius: 5p;
+}
+.logo h1::first-letter{
+
+    font-size: 45px;
+    padding-left: 10px;
+}
+ul.itimes li{
+    display: inline-block;
+    padding: 1px 10px;
+}
+ul.itimes li a{
+    color: #fff;
+    text-decoration: none;
+    font-family:cursive;
+    }
+    ul.itimes li a:hover{
+        transition: o.5s;
+        background: orange;
+        border-radius: 4px;
+    }
+        
+    .card{
+        min-width: auto;
+        width: 200px;
+        height: auto;
+        background-color: hwb(0 90% 9%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        float: left;
+        margin: 24px;
+        border-radius: 5px;
+    }
+    .imgcard img{
+        width: 100%;
+        width: 200px;
+        height: 220px;
+        background-color: rgb(30, 167, 167);
+        border-bottom:1px solid rgb(233, 229, 229);
+    }
+    .details{
+        font-size: 20px;
+        padding: 5px;
+    }
+    button{
+    border-radius: 3px;
+    display: block;
+    width: 70px;
+    background: rgb(37, 37, 37);
+    border: none;
+    padding: 8px;
+    color: white;
+    margin: 10px 0px  20px 3.5rem;
+    }
+    button:hover{
+        background: orange;
+    }
+
+    
