@@ -27,9 +27,15 @@
     font-size: 45px;
     padding-left: 10px;
 }
-ul.itimes li{
-    display: inline-block;
+ul{
+    /* display: inline-block; */
     padding: 1px 10px;
+    display:flex;
+    padding:5px;
+
+}
+li{
+    padding: 5px;
 }
 ul.itimes li a{
     color: #fff;
