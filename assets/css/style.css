@@ -4,6 +4,16 @@
     box-sizing: border-box;
     
 }
+section{
+    margin-left: 60px;
+}
+ input{
+    border: 5px ;
+    border-radius:5px;
+    padding: 10px;
+    padding-right: 70px;
+    margin-right: 300px;
+}
 .nav{
     
     background-color: black;
